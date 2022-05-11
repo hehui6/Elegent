@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+
+	</body>
+	<script>
+	// function cob(msg){
+	// 	var arr=msg.split("-")
+	// 	for (var i = 0; i < data.length; i++) {
+	// 		data[i]=data[i].charAt(0).toUpperCase()+arr[i].substr(1,arr[i].length-1)
+	// 	}
+	// 	msg=arr.join("")
+	// 	return msg
+	// }
+	// var numberArray=[3,6,2,4,1,5]
+	// console.log(numberArray.sort((a,b)=>{return a-b}))
+	// console.log(numberArray.reverse())
+	var d=new Date()
+	var year=d.getFullYear()
+	var month =d.getMonth()+1
+	month=month<10?'0'+month:month;
+	var day =d.getDate();
+	day=day<10?'0'+day:day
+	alert(year+'-'+month+'-'+day)
+	</script>
+</html>
